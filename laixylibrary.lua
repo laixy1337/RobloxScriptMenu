@@ -120,10 +120,10 @@ local themeStyles = {
         ElementColor = Color3.fromRGB(22, 29, 31)
     },
     EgeTheme = {
-        SchemeColor = Color3.fromRGB(64, 64, 64),
+        SchemeColor = Color3.fromRGB(0, 47, 255),
         Background = Color3.fromRGB(0, 0, 0),
         Header = Color3.fromRGB(0, 0, 0),
-        TextColor = Color3.fromRGB(0, 47, 255),
+        TextColor = Color3.fromRGB(255, 255, 255),
         ElementColor = Color3.fromRGB(24, 24, 24)
     }
 }
