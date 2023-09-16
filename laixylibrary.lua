@@ -49,11 +49,11 @@ end
 
 
 local themes = {
-    SchemeColor = Color3.fromRGB(74, 99, 135),
+    SchemeColor = Color3.fromRGB(0, 47, 255),
     Background = Color3.fromRGB(0, 0, 0),
-    Header = Color3.fromRGB(28, 29, 34),
+    Header = Color3.fromRGB(0, 0, 0),
     TextColor = Color3.fromRGB(255,255,255),
-    ElementColor = Color3.fromRGB(32, 32, 38)
+    ElementColor = Color3.fromRGB(24, 24, 24)
 }
 local themeStyles = {
     DarkTheme = {
@@ -180,15 +180,15 @@ function Ege.CreateLib(kavName, themeList)
         themeList = themeStyles.EgeTheme
     else
         if themeList.SchemeColor == nil then
-            themeList.SchemeColor = Color3.fromRGB(74, 99, 135)
+            themeList.SchemeColor = Color3.fromRGB(0, 47, 255)
         elseif themeList.Background == nil then
-            themeList.Background = Color3.fromRGB(36, 37, 43)
+            themeList.Background = Color3.fromRGB(0, 0, 0)
         elseif themeList.Header == nil then
-            themeList.Header = Color3.fromRGB(28, 29, 34)
+            themeList.Header = Color3.fromRGB(0, 0, 0)
         elseif themeList.TextColor == nil then
             themeList.TextColor = Color3.fromRGB(255,255,255)
         elseif themeList.ElementColor == nil then
-            themeList.ElementColor = Color3.fromRGB(32, 32, 38)
+            themeList.ElementColor = Color3.fromRGB(24, 24, 24)
         end
     end
 
@@ -402,7 +402,7 @@ function Ege.CreateLib(kavName, themeList)
         page.Size = UDim2.new(1, 0, 1, 0)
         page.ScrollBarThickness = 5
         page.Visible = false
-        page.ScrollBarImageColor3 = Color3.fromRGB(themeList.SchemeColor.r * 255 - 16, themeList.SchemeColor.g * 255 - 15, themeList.SchemeColor.b * 255 - 28)
+        page.ScrollBarImageColor3 = Color3.fromRGB(0, 47, 255)
 
         pageListing.Name = "pageListing"
         pageListing.Parent = page
@@ -472,7 +472,7 @@ function Ege.CreateLib(kavName, themeList)
         coroutine.wrap(function()
             while wait() do
                 page.BackgroundColor3 = themeList.Background
-                page.ScrollBarImageColor3 = Color3.fromRGB(themeList.SchemeColor.r * 255 - 16, themeList.SchemeColor.g * 255 - 15, themeList.SchemeColor.b * 255 - 28)
+                page.ScrollBarImageColor3 = Color3.fromRGB(0, 47, 255)
                 tabButton.TextColor3 = themeList.TextColor
                 tabButton.BackgroundColor3 = themeList.SchemeColor
             end
