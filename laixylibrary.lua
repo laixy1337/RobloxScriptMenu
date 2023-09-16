@@ -1070,7 +1070,7 @@ function Ege.CreateLib(kavName, themeList)
     
                     moreInfo.Name = "TipMore"
                     moreInfo.Parent = infoContainer
-                    moreInfo.BackgroundColor3 = Color3.fromRGB(themeList.SchemeColor.r * 255 - 14, themeList.SchemeColor.g * 255 - 17, themeList.SchemeColor.b * 255 - 13)
+                    moreInfo.BackgroundColor3 = Color3.fromRGB(0, 47, 255)
                     moreInfo.Position = UDim2.new(0, 0, 2, 0)
                     moreInfo.Size = UDim2.new(0, 353, 0, 33)
                     moreInfo.ZIndex = 9
@@ -1182,7 +1182,7 @@ function Ege.CreateLib(kavName, themeList)
                             togName.TextColor3 = themeList.TextColor
                             viewInfo.ImageColor3 = themeList.SchemeColor
                             Sample.ImageColor3 = themeList.SchemeColor
-                            moreInfo.BackgroundColor3 = Color3.fromRGB(themeList.SchemeColor.r * 255 - 14, themeList.SchemeColor.g * 255 - 17, themeList.SchemeColor.b * 255 - 13)
+                            moreInfo.BackgroundColor3 = Color3.fromRGB(0, 47, 255)
                             moreInfo.TextColor3 = themeList.TextColor
                         end
                     end)()
@@ -1344,7 +1344,7 @@ function Ege.CreateLib(kavName, themeList)
 
                 moreInfo.Name = "TipMore"
                 moreInfo.Parent = infoContainer
-                moreInfo.BackgroundColor3 = Color3.fromRGB(themeList.SchemeColor.r * 255 - 14, themeList.SchemeColor.g * 255 - 17, themeList.SchemeColor.b * 255 - 13)
+                moreInfo.BackgroundColor3 = Color3.fromRGB(0, 47, 255)
                 moreInfo.Position = UDim2.new(0, 0, 2, 0)
                 moreInfo.Size = UDim2.new(0, 353, 0, 33)
                 moreInfo.ZIndex = 9
@@ -1398,7 +1398,7 @@ function Ege.CreateLib(kavName, themeList)
                             sliderElement.BackgroundColor3 = themeList.ElementColor
                         end
                         moreInfo.TextColor3 = themeList.TextColor
-                        moreInfo.BackgroundColor3 = Color3.fromRGB(themeList.SchemeColor.r * 255 - 14, themeList.SchemeColor.g * 255 - 17, themeList.SchemeColor.b * 255 - 13)
+                        moreInfo.BackgroundColor3 = Color3.fromRGB(0, 47, 255)
                         val.TextColor3 = themeList.TextColor
                         write.ImageColor3 = themeList.SchemeColor
                         togName.TextColor3 = themeList.TextColor
@@ -1642,7 +1642,7 @@ function Ege.CreateLib(kavName, themeList)
 
                 moreInfo.Name = "TipMore"
                 moreInfo.Parent = infoContainer
-                moreInfo.BackgroundColor3 = Color3.fromRGB(themeList.SchemeColor.r * 255 - 14, themeList.SchemeColor.g * 255 - 17, themeList.SchemeColor.b * 255 - 13)
+                moreInfo.BackgroundColor3 = Color3.fromRGB(0, 47, 255)
                 moreInfo.Position = UDim2.new(0, 0, 2, 0)
                 moreInfo.Size = UDim2.new(0, 353, 0, 33)
                 moreInfo.ZIndex = 9
@@ -1680,7 +1680,7 @@ function Ege.CreateLib(kavName, themeList)
                         listImg.ImageColor3 = themeList.SchemeColor
                         itemTextbox.TextColor3 = themeList.TextColor
                         viewInfo.ImageColor3 = themeList.SchemeColor
-                        moreInfo.BackgroundColor3 = Color3.fromRGB(themeList.SchemeColor.r * 255 - 14, themeList.SchemeColor.g * 255 - 17, themeList.SchemeColor.b * 255 - 13)
+                        moreInfo.BackgroundColor3 = Color3.fromRGB(0, 47, 255)
                         moreInfo.TextColor3 = themeList.TextColor
                     end
                 end)()
@@ -1994,7 +1994,7 @@ function Ege.CreateLib(kavName, themeList)
 
                 moreInfo.Name = "TipMore"
                 moreInfo.Parent = infoContainer
-                moreInfo.BackgroundColor3 = Color3.fromRGB(themeList.SchemeColor.r * 255 - 14, themeList.SchemeColor.g * 255 - 17, themeList.SchemeColor.b * 255 - 13)
+                moreInfo.BackgroundColor3 = Color3.fromRGB(0, 47, 255)
                 moreInfo.Position = UDim2.new(0, 0, 2, 0)
                 moreInfo.Size = UDim2.new(0, 353, 0, 33)
                 moreInfo.ZIndex = 9
@@ -2127,7 +2127,7 @@ function Ege.CreateLib(kavName, themeList)
                         togName.TextColor3 = themeList.TextColor
                         Sample.ImageColor3 = themeList.SchemeColor
                         moreInfo.TextColor3 = themeList.TextColor
-                        moreInfo.BackgroundColor3 = Color3.fromRGB(themeList.SchemeColor.r * 255 - 14, themeList.SchemeColor.g * 255 - 17, themeList.SchemeColor.b * 255 - 13)
+                        moreInfo.BackgroundColor3 = Color3.fromRGB(0, 47, 255)
 
                     end
                 end)()
@@ -2285,7 +2285,7 @@ function Ege.CreateLib(kavName, themeList)
 
                 moreInfo.Name = "TipMore"
                 moreInfo.Parent = infoContainer
-                moreInfo.BackgroundColor3 = Color3.fromRGB(themeList.SchemeColor.r * 255 - 14, themeList.SchemeColor.g * 255 - 17, themeList.SchemeColor.b * 255 - 13)
+                moreInfo.BackgroundColor3 = Color3.fromRGB(0, 47, 255)
                 moreInfo.Position = UDim2.new(0, 0, 2, 0)
                 moreInfo.Size = UDim2.new(0, 353, 0, 33)
                 moreInfo.ZIndex = 9
@@ -2481,7 +2481,7 @@ function Ege.CreateLib(kavName, themeList)
                         touch.ImageColor3 = themeList.SchemeColor
                         colorHeader.BackgroundColor3 = themeList.ElementColor
                         togName.TextColor3 = themeList.TextColor
-                        moreInfo.BackgroundColor3 = Color3.fromRGB(themeList.SchemeColor.r * 255 - 14, themeList.SchemeColor.g * 255 - 17, themeList.SchemeColor.b * 255 - 13)
+                        moreInfo.BackgroundColor3 = Color3.fromRGB(0, 47, 255)
                         moreInfo.TextColor3 = themeList.TextColor
                         viewInfo.ImageColor3 = themeList.SchemeColor
                         colorInners.BackgroundColor3 = themeList.ElementColor
